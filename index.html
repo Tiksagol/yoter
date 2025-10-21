@@ -1,8 +1,110 @@
 <!DOCTYPE html> 
-<html lang="he">
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=heb/14.html">
+    <style>
+        body {
+            direction: rtl;
+            text-align: right;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .clsHeaderTopBG {
+            background: url('../assets/images/header_top_bg.gif') repeat-x;
+        }
+        
+        .clsHeaderBG {
+            background: url('../assets/images/header_bg.gif') no-repeat center;
+            height: 200px;
+        }
+        
+        .clsHeaderBox {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .clsBSD {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .clsTopNav {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .clsLogo {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+        }
+        
+        .clsMainImageBG {
+            background: url('../assets/images/main_bg.gif') repeat-x;
+            height: 300px;
+        }
+        
+        .clsMainImageBox {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        .clsContentBG {
+            background: #ffffff;
+            min-height: 400px;
+            padding: 20px;
+        }
+        
+        .clsPageAlign {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .clsFooter {
+            background: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
 <body>
-    <h1>יותר מסת"ם</h1>
-    <h2>ברוכים הבאים לאתר שלי</h2>
-    <p>שלום עליכם</p>
+    <div class="clsHeaderTopBG">
+        <div class="clsHeaderBG">
+            <div class="clsHeaderBox">
+                <span class="clsBSD">בס"ד</span>
+                <span class="clsTopNav">ניווט עליון</span>
+                <div class="clsLogo">
+                    <h1>יותר מסת"ם</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clsMainImageBG">
+        <div class="clsMainImageBox">
+            <div style="padding: 50px; text-align: center;">
+                <h2>ברוכים הבאים לאתר שלי</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clsContentBG">
+        <div class="clsPageAlign">
+            <p>שלום עליכם</p>
+        </div>
+    </div>
+    
+    <div class="clsFooter">
+        <p>יותר מסת"ם - כל הזכויות שמורות</p>
+    </div>
 </body>
 </html>
